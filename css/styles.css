@@ -11527,11 +11527,7 @@ img {
 header.banner-area {
   padding-top: 100px;
   color: black;
-  background-image: url("../assets/img/nedladdning.jpeg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
+  background-color: #232323;
   font-family: 'Poppins', sans-serif;
 }
 header.masthead .masthead-subheading {
