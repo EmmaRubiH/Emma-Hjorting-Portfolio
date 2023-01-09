@@ -56,7 +56,7 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Roboto Slab, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  --bs-body-font-family: Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -1997,6 +1997,9 @@ img {
 }
 .table > :not(:first-child) {
   border-top: 2px solid currentColor;
+}
+.margin-20px-bottom {
+  margin-bottom: 20px;
 }
 
 .caption-top {
@@ -7637,9 +7640,7 @@ textarea.form-control-lg {
   font-size: 1rem !important;
 }
 
-.fst-italic {
-  font-style: italic !important;
-}
+
 
 .fst-normal {
   font-style: normal !important;
@@ -11328,7 +11329,7 @@ p {
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 1rem;
   font-weight: 400;
-  font-style: italic;
+  font-style: "Montserrat";
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 4rem;
 }
@@ -11500,14 +11501,14 @@ img {
 
 .banner-left h6 {
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 200;
   letter-spacing: 2px;
-  font-family: "Poppins", sans-serif;
-    color: whitesmoke;
+  font-family: "Montserrat ", sans-serif;
+    color: #F8F9FA;
     line-height: 1.2em !important;
-    margin-bottom: 0;
+    margin-bottom: 4px;
     margin-top: 0;
-    font-weight: 600;
+    
 }
 
 
@@ -11516,19 +11517,19 @@ img {
   font-size: 60px;
   text-transform: uppercase;
   
-  font-family: "Poppins", sans-serif;
-    color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+    color:  #ffffff;
     line-height: 1.2em !important;
-    margin-bottom: 0;
+   
     margin-top: 0;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 header.banner-area {
   padding-top: 100px;
   color: black;
   background-color: #232323;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 header.masthead .masthead-subheading {
   font-size: 27px;
@@ -11546,7 +11547,7 @@ header.masthead .masthead-heading {
 
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
-    font-style: italic;
+    font-style: Montserrat;
     line-height: 2.25rem;
     margin-bottom: 2rem;
   }
@@ -11597,8 +11598,8 @@ header.masthead .masthead-heading {
   margin-bottom: 0;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
-  font-style: italic;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .portfolio-modal .modal-dialog {
@@ -11615,9 +11616,9 @@ header.masthead .masthead-heading {
   line-height: 3rem;
 }
 .portfolio-modal .modal-content p.item-intro {
-  font-style: italic;
+  
   margin-bottom: 2rem;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .portfolio-modal .modal-content p {
   margin-bottom: 2rem;
@@ -11639,6 +11640,44 @@ header.masthead .masthead-heading {
 }
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.padding-10px-tb {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.border-color-medium-dark-gray {
+  border-color: #363636 !important;
+}
+.border-bottom {
+  border-bottom: 1px solid;
+}
+.border-top {
+  border-top: 1px solid;
+}
+.text-light-gray {
+  color: #238AA3;
+}
+.padding-fifteen-top {
+  padding-top: 10%;
+}
+
+@media (max-width: 991px)
+{.banner-left h1 {
+    font-size: 30px;
+}}
+.font-size16 {
+  font-size: 16px;
+}
+.border-bottom {
+  border-bottom: 1px solid #dee2e6!important;
+}
+.border-top {
+  border-top: 1px solid #dee2e6!important;
 }
 
 .timeline {
