@@ -240,8 +240,9 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #cca000;
+  color: black;
 }
+
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
@@ -11441,6 +11442,9 @@ img {
   border-style: none;
 }
 
+i {
+  color: #238AA3;
+}
 
 .banner-area .fullscreen {
   height: 750px !important;
@@ -11504,7 +11508,7 @@ img {
   font-weight: 200;
   letter-spacing: 2px;
   font-family: "Montserrat ", sans-serif;
-    color: #F8F9FA;
+    color: #bdbdbd;
     line-height: 1.2em !important;
     margin-bottom: 4px;
     margin-top: 0;
@@ -11518,11 +11522,15 @@ img {
   text-transform: uppercase;
   
   font-family: "Montserrat", sans-serif;
-    color:  #ffffff;
+    color: #bdbdbd;
     line-height: 1.2em !important;
    
     margin-top: 0;
     font-weight: 300;
+}
+
+.textsmall {
+  color: #bdbdbd;
 }
 
 header.banner-area {
